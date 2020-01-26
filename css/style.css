@@ -1,0 +1,171 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+.dark{
+    padding:15px;
+    background:#363636;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/* Titill á síðu  */
+header{
+    background:#363636;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#bc4555 3px solid;
+}
+
+/* Linkar hliðiná titil */
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+    
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #logo{
+   float:left; 
+}
+
+header #logo h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .current a{
+    color:#bc4555;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#eed59a;
+    font-weight:bold;
+}
+
+/* poster */
+#poster{
+    min-height:500px;
+    background:url('../Images/cool.jpg') no-repeat -300px -900px;
+    text-align:center;
+    color:#ffffff;
+}
+
+#poster h1{
+    margin-top:280px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#poster p{
+    font-size:25px;
+}
+
+/* icons */
+#icons{
+    margin-top:110px;
+}
+
+#icons .icon{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+}
+
+
+#icons .icon Images{
+    width:90px;
+}
+
+/*Sidebar*/
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+
+/*head-main*/
+article#head-main{
+    float:left;
+    width:65%;
+}
+
+/*verkefni*/
+ul#projects li{
+    list-style:none;
+    padding:20px;
+    border:#cccccc solid 1px;
+    margin-bottom:5px;
+    background:#e6e6e6;
+}
+
+footer{
+    padding:20px;
+    margin-top:170px;
+    color;#ffffff;
+    background-color:#bc4555;
+    text-align:center;
+}
+
+/*phoneformat*/
+@media(max-width: 768px){
+    header #logo,
+    header nav,
+    header nav li,
+    #icons .icon,
+    article#head-main,
+    aside#sidebar{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+    
+    header{
+        padding-bottom:20px;
+    }
+}
+
+#poster h1{
+    margin-top:170px;
+}
+
+
+
+
+
+
+
+
+
