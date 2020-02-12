@@ -53,41 +53,55 @@
                             <p>In order to familiarize myself with parametric modelling in Fusion 360 <a href="https://www.youtube.com/watch?v=9U2JPfkQpsE">this</a> video was of great use. I started with defining the parameters to be used on the bottom- and back panels as well as for the support pieces.</p>
                             
                             <!--PICTURE-->
-                            <img src="Images/Parameters.JPG" width="602" height="248">
+                            <img src="Images/Parameters.JPG" width="1204" height="496">
                             
-                            <p>I then sketched the bottom panel and adjusted the parameters as to accommodate a typical engineering textbook in open state (350 mm wide, 220 mm high) and extruded it with a thickness parameter set to 4 mm. The fingers were then drawn using the rectangular pattern tool and distributed evenly on the bottom edge. The bottom panel was made similarly and slots for the fingers of a support piece cut on the back panel which were then mirrored around an offset plane.</p>
-                          
-                             <!--SKETCHES-->
-                            
-                            
+                            <p>I began with sketching the bottom panel on which the book would rest. After measuring a thermodynamics textbook I concluded that a 350 mm wide base with a 30 mm lip would suffice.</p>    
+            
                                   <img src="Images/1.JPG" style="width:100%">
+                            
+                            <p>I then extruded the sketch to match the thickness of the 4 mm panels.</p>
                                
                                   <img src="Images/2.JPG" style="width:100%">
+                            
+                            <p>A single finger's cross section was then sketched on the long edge of the bottom panel.</p>
                          
                                   <img src="Images/3.JPG" style="width:100%">
-                                
+                             
+                            <p>Using the <b>rectangular pattern</b> feature the sketch could then be pasted along the entire edge. This will ensure that if changes are made to the number of fingers that they will cover the entire area and not just a part of it.</p>
+                           
                                   <img src="Images/4.JPG" style="width:100%">
                                     
+                            <p>A 3-point rectangle was then sketched, using the endpoints on the bottom panel and a parameter for the height of the back panel.</p>
+                            
                                   <img src="Images/5.JPG" style="width:100%">
+                            
+                            <p>The sketch was then extruded as a new body as before.</p>
                              
                                   <img src="Images/6.JPG" style="width:100%">
                             
+                            <p>As a result of the previous extrude feature, there is now interference between the two bodies where the fingers meet the back panel. To amend this, I used the <b>combine</b> modification feature and selected the operation <b>cut</b>.</p>
+                            
                                   <img src="Images/7.JPG" style="width:100%">
+                            
+                            <p>The supports were then sketched. This proved to be the most complex piece as I had to ensure that changing the tilt angle would also change the lengths of the triangle. The parameters <b>Depth_support, Angle_support</b> and <b>hypot</b> were created to tackle this problem and can be seen in the parameter list above.</p>
                             
                                   <img src="Images/8.JPG" style="width:100%">
                             
+                            <p>After cutting the fingers into the back panel the support sketch was extruded by a thickness of 4 mm as before.</p>
+                            
                                   <img src="Images/9.JPG" style="width:100%">
+                            
+                            <p>To save some time, I constructed a plane in the middle of the object in order to mirror the recently created support piece.</p>
                             
                                   <img src="Images/10.JPG" style="width:100%">
                             
+                            <p>I mirrored the finger cut feature first and then the body itself.</p>
+                            
                                   <img src="Images/11.JPG" style="width:100%">
                             
-                                  <img src="Images/12.JPG" style="width:100%">
-        
-
-                                 
+                                  <img src="Images/12.JPG" style="width:100%"
                                             
-                            <p>The assembly looks like this, very similar to the reference material.</p>
+                            <p>Finally, the assembly looks like this.</p>
                             
                             <!--PICTURE-->
                             <img src="Images/ISO view.JPG" width="864" height="799">
